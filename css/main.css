@@ -1,0 +1,49 @@
+/* bootstrap chat */
+
+html, body {
+	padding: 0.5em;
+	color: #fff;
+}
+
+.container {
+	height: 650px;
+	background: #eee;
+	padding: 1em;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.fixed-bottom {
+	position: fixed;
+  bottom: 36px;
+  left: 55.5px;
+  width: 91.2%;
+}
+
+.input-group .form-control {
+	height: 34px;
+}
+
+.btn .caret {
+	position: absolute;
+	top: 14px;
+	right: 20px;
+}
+
+.dropup .btn {
+	padding: 4px 100px 4px 10px;
+}
+
+.btn {
+	padding: 4px 60px;
+}
+
+.dropup button, .dropup button:hover {
+	background: #fff;
+	color: #000;
+}
+
+span button {
+	background: green;
+}
+

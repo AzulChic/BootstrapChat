@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+	<title>BootstrapChat</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="alert alert-info">
+			<h1>Hola!!</h1>
+			<p>Escribe en el campo de abajo y presiona OK. (puedes cambiar el tipo si deseas)</p>
+		</div>
+		<div class="ventana"></div>
+		<div class="fixed-bottom">
+			<div class="input-group">
+			  <div class="input-group-btn">
+			    <div class="dropup">
+					  <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  ok
+					    <span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+					    <li><a href="#" class="msg-ok">ok</a></li>
+					    <li><a href="#" class="msg-info">info</a></li>
+					    <li><a href="#" class="msg-warning">warn</a></li>
+					    <li><a href="#" class="msg-danger">danger</a></li>
+					  </ul>
+					</div>
+			  </div>
+			  <input type="text" class="form-control" id="mensaje" aria-label="">
+			  <span class="input-group-btn">
+	        <button class="btn" id="enviar" type="button">OK</button>
+	      </span>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
