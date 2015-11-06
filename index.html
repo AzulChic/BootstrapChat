@@ -16,26 +16,20 @@
 			<p>Escribe en el campo de abajo y presiona OK. (puedes cambiar el tipo si deseas)</p>
 		</div>
 		<div class="ventana"></div>
-		<div class="fixed-bottom">
-			<div class="input-group">
-			  <div class="input-group-btn">
-			    <div class="dropup">
-					  <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					  ok
-					    <span class="caret"></span>
-					  </button>
-					  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-					    <li><a href="#" class="msg-ok">ok</a></li>
-					    <li><a href="#" class="msg-info">info</a></li>
-					    <li><a href="#" class="msg-warning">warn</a></li>
-					    <li><a href="#" class="msg-danger">danger</a></li>
-					  </ul>
-					</div>
-			  </div>
-			  <input type="text" class="form-control" id="mensaje" aria-label="">
-			  <span class="input-group-btn">
-	        <button class="btn" id="enviar" type="button">OK</button>
-	      </span>
+		<div class="bottom">
+			<div class="col-xs-4 col-sm-2">
+			  <select id="color" class="form-control">
+			  	<option value="info">Info</option>
+			  	<option value="warning">Warning</option>
+			  	<option value="danger">Danger</option>
+			  	<option value="success">Ok</option>
+			  </select>
+			</div>
+			<div class="col-xs-6 col-sm-8">
+			  <input type="text" class="form-control" id="mensaje">
+			</div>
+			<div class="col-xs-2 col-sm-2">
+	      <button class="btn btn-success form-control" id="enviar" type="button">OK</button>
 			</div>
 		</div>
 	</div>
